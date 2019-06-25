@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            FORM
+        </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<div class="jumbotron text-center bg-info">
+			<h1>
+				HTML form
+			</h1>
+		</div>
+    </head>
+	<body>
+	<div class="jumbotron text-center bg-success">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">	
+					<form method="">
+						<h1>Personal Details:</h1>
+						First Name:<br>
+						<input type="text" value="firstName" name="fn"><br><br>
+						Last Name:<br>
+						<input type="text" value="lastName" name="ln"><br><br>
+						Gender:<br>
+						<input type="radio" name="g" value="female">Female<br>
+						<input type="radio" name="g" value="male">Male<br>
+						<input type="radio" name="g" value="other">Other<br>
+						<input type="radio" name="g" value="na">Prefer not to reveal<br><br>
+						DOB:<br>
+						<input type="date" name="bob" min="1979-12-31" max="2000-07-21"><br><br>
+						E-mail:<br>
+						<input type="email" name="email"><br><br>
+						Telephone:<br>
+						<input type="tel" name="phone" pattern="[0-9]{10}" required><br><br>
+						
+						<input required type="checkbox" name="confirm" value="true"> I confirn that the above info is true to my present knowledge.<br>
+						<input type="submit">
+					</form>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+				</div>
+			</div>
+		</div>
+	</div>	
+	</body>
+</html>
